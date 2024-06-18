@@ -4,7 +4,7 @@ def menu_principal():
         '1': ('Registrar trabajador', regTrabajador),
         '2': ('Listar todos los trabajadores', listEmpleados),
         '3': ('Imprimir planilla de sueldos', printSueldos),
-        '4': ('Salir', salir)
+        '4': ('Salir del Programa', salir)
     }
 
     generar_menu(opciones, '4')
